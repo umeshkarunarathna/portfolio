@@ -179,4 +179,4 @@ function renderProjects() {
   }).join("");
 }
 
-document.addEventListener("DOMContentLoaded", renderProjects);
+//document.addEventListener("DOMContentLoaded", renderProjects);

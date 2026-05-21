@@ -29,5 +29,9 @@ function setupRevealAnimation() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  setTimeout(setupRevealAnimation, 50);
+  renderProjects();
+
+  setTimeout(() => {
+    setupRevealAnimation();
+  }, 100);
 });
