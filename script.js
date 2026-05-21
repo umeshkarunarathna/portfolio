@@ -11,7 +11,7 @@ document.querySelectorAll(".nav-links a").forEach((link) => {
   link.addEventListener("click", () => navLinks.classList.remove("open"));
 });
 
-function setupRevealAnimation() {
+/*function setupRevealAnimation() {
   const revealItems = document.querySelectorAll(".section, .profile-card, .skill-card, .timeline-item, .project-card");
 
   revealItems.forEach((item) => item.classList.add("reveal"));
@@ -26,7 +26,7 @@ function setupRevealAnimation() {
   }, { threshold: 0.12 });
 
   revealItems.forEach((item) => observer.observe(item));
-}
+}*/
 
 document.addEventListener("DOMContentLoaded", () => {
   renderProjects();
