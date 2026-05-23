@@ -381,3 +381,22 @@ footer {
 .project-card:hover .project-image {
   transform: scale(1.03);
 }
+
+.cert-card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+}
+
+.cert-card img {
+  max-width: 100%;
+  max-height: 90px;
+  object-fit: contain;
+  transition: transform 0.25s ease;
+}
+
+.cert-card img:hover {
+  transform: scale(1.05);
+}
