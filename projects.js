@@ -11,7 +11,7 @@
 
 const PROJECTS = [
   {
-    title: "Evaluating the Effectiveness of Gamified Training in Enhancing User Resilience Against Spear Phishing Attacks",
+    title: "Evaluating the Effectiveness of Traditional and Gamified Training in Enhancing User Resilience Against Spear Phishing Attacks",
     category: "Cybersecurity Research",
     period: "May 2025 – Jun 2025",
     associatedWith: "Douglas College",
@@ -27,7 +27,7 @@ const PROJECTS = [
     ],
     tags: ["Spear Phishing", "Gamification", "Cybersecurity Awareness", "Research", "Data Analysis"],
     links: [
-      { label: "GitHub", url: "https://github.com/umeshkarunarathna" }
+      { label: "GitHub", url: "https://github.com/umeshkarunarathna/GamifiedSpearPhishingTraining" }
     ]
   },
   {
@@ -47,7 +47,7 @@ const PROJECTS = [
     ],
     tags: ["HTML", "CSS", "JavaScript", "Phishing Detection", "Training Module", "Gamification"],
     links: [
-      { label: "GitHub", url: "https://github.com/umeshkarunarathna" }
+      { label: "GitHub", url: "https://github.com/umeshkarunarathna/Gamified-Outlook-Style-Phishing-Detection-Module" }
     ]
   },
   {
@@ -65,7 +65,7 @@ const PROJECTS = [
     ],
     tags: ["Wazuh", "FastAPI", "PostgreSQL", "Ollama", "Vue.js", "SOC"],
     links: [
-      { label: "GitHub", url: "https://github.com/umeshkarunarathna" }
+      { label: "GitHub", url: "https://github.com/umeshkarunarathna/LLM-Powered-SOC-Assistant" }
     ]
   },
   {
@@ -83,7 +83,7 @@ const PROJECTS = [
     ],
     tags: ["Android", "ADB", "ALEAPP", "MobSF", "Drozer", "JADX"],
     links: [
-      { label: "GitHub", url: "https://github.com/umeshkarunarathna" }
+      { label: "GitHub", url: "https://github.com/umeshkarunarathna/Android-Forensic-Analysis" }
     ]
   },
   {
@@ -119,7 +119,7 @@ const PROJECTS = [
     ],
     tags: ["Kotlin", "Firebase", "Android", "Notifications"],
     links: [
-      { label: "GitHub", url: "https://github.com/umeshkarunarathna" }
+      { label: "GitHub", url: "https://github.com/umeshkarunarathna/DeskWellPlus" }
     ]
   },
   {
@@ -137,7 +137,7 @@ const PROJECTS = [
     ],
     tags: ["Windows Server", "Active Directory", "GPO", "IT Support"],
     links: [
-      { label: "GitHub", url: "https://github.com/umeshkarunarathna" }
+      { label: "GitHub", url: "https://github.com/umeshkarunarathna/ad-implementation" }
     ]
   }
 ];
