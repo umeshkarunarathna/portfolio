@@ -139,7 +139,72 @@ const PROJECTS = [
     links: [
       { label: "GitHub", url: "https://github.com/umeshkarunarathna/ad-implementation" }
     ]
-  }
+  },
+{
+  title: "VMware ESXi Virtualization Home Lab",
+  category: "Virtualization & Infrastructure",
+  period: "July 2026",
+  associatedWith: "Personal Lab",
+  image: "images/vmware-esxi-lab.png",
+  description:
+    "Built a nested VMware ESXi 8.x virtualization environment to gain hands-on experience with hypervisor administration, virtual machines, datastores, snapshots, storage provisioning, and virtual networking.",
+  highlights: [
+    "Installed and configured VMware ESXi 8.x in a nested virtualization environment",
+    "Deployed and managed an Ubuntu Server virtual machine through the ESXi Host Client",
+    "Configured virtual disks, datastores, vSwitches, port groups, and virtual network adapters",
+    "Created, deleted, and consolidated virtual machine snapshots",
+    "Troubleshot VT-x/EPT, bridged networking, APIPA addressing, datastore capacity, and VM cloning issues"
+  ],
+  tags: [
+    "VMware ESXi 8",
+    "Ubuntu Server",
+    "Virtual Machines",
+    "vSwitch",
+    "Datastores",
+    "Snapshots",
+    "Virtual Networking"
+  ],
+  links: [
+    {
+      label: "GitHub",
+      url: "https://github.com/umeshkarunarathna/vmware-esxi-home-lab"
+    }
+  ]
+},
+{
+  title: "Active Directory Enterprise Infrastructure Lab",
+  category: "Windows Server & Identity",
+  period: "July 2026",
+  associatedWith: "Personal Lab",
+  image: "images/active-directory-lab.png",
+  description:
+    "Designed and deployed a small enterprise-style Windows Server environment with Active Directory, DNS, DHCP, Group Policy, file services, departmental access controls, Windows and Linux domain integration, and pfSense routing.",
+  highlights: [
+    "Configured DC01 as a Windows Server 2022 domain controller, DNS server, and DHCP server",
+    "Configured SRV01 as a domain-joined file server with SMB shares and NTFS permissions",
+    "Created departmental organizational units, users, security groups, and access controls",
+    "Deployed mapped drives, desktop wallpaper, and login scripts through Group Policy",
+    "Joined Windows 11 Pro and Ubuntu clients to the corp.umeshlab.local domain",
+    "Integrated pfSense for routing and firewall functionality within the lab"
+  ],
+  tags: [
+    "Windows Server 2022",
+    "Active Directory",
+    "DNS",
+    "DHCP",
+    "Group Policy",
+    "SMB",
+    "NTFS",
+    "Ubuntu",
+    "pfSense"
+  ],
+  links: [
+    {
+      label: "GitHub",
+      url: "https://github.com/umeshkarunarathna/ad-implementation"
+    }
+  ]
+}
 ];
 
 function renderProjects() {
