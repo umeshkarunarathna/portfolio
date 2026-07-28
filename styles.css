@@ -149,16 +149,15 @@ h3 { font-size: 1.25rem; margin-bottom: 8px; }
 .profile-card { padding: 32px; }
 
 .avatar {
-  width: 88px;
-  height: 88px;
-  border-radius: 30px;
-  display: grid;
-  place-items: center;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  color: #07111f;
-  font-size: 2rem;
-  font-weight: 900;
-  margin-bottom: 24px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    border: 4px solid #8bd3dd;
+    box-shadow: 0 0 30px rgba(139,211,221,.35);
+
+    margin-bottom: 24px;
 }
 
 .profile-card p, .company, .timeline-item li, .project-card p, .content-card p, .contact-card p, .project-highlights {
